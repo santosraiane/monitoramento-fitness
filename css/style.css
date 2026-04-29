@@ -1,0 +1,155 @@
+@font-face {
+    font-family:"Poppins" ;
+    src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:"Poppins" ;
+    src: url(../fonts/Poppins-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0B0B0F;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 5px 0;
+    height: 80px;
+}
+
+h1{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 60px;
+    
+}
+
+p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    width: 600px;
+    margin: 20px auto;
+    line-height: 28px;
+}
+
+span{
+    color: #8B5CF6;
+}
+
+a{
+    color: #FFFFFF;
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    background: #8B5CF6;
+    width: 250px;
+    height: 56px;
+    display: block;
+    text-align: center;
+    line-height: 56px;
+    border-radius: 20px;
+    margin: 5px auto;
+}
+
+a:hover{
+    background-color: #7C3AED;
+} 
+
+section img{
+    margin: 20px auto;
+    width: 600px;
+    height: 315px;
+}
+
+@media (max-width: 768px){
+    body{
+        text-align: center;
+    }
+
+    header img {
+        height: 80px;
+    }
+
+    h1 {
+    font-size: 65px;
+    line-height: 65px;
+    margin: 0 auto;
+    width: 600px;
+  }
+
+    p {
+    font-size: 24px;
+    line-height: 30px;
+    width: 70%;
+    margin-top: 20px;
+    
+  }
+
+  a {
+    margin: 50px auto;
+    width: 350px;
+    font-size: 25px;
+  }
+
+  section img {
+    width: 600px;
+    height: 500px;
+    margin: 10px ;
+  }
+}
+
+@media (max-width: 376px){
+    body{
+        text-align: center;
+    }
+    
+    header img {
+        height: 50px;
+    }
+
+    h1 {
+    font-size: 30px;
+    line-height: 33px;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+    p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 90%;
+    margin-top: 20px;
+    
+  }
+
+  a {
+    margin: 0 auto;
+    width: 200px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+  }
+
+  section img {
+    width: 370px;
+    height: 270px;
+    margin: 20px auto;
+  }
+
+}

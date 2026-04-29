@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- fundo transparente -->
+
+  <!-- círculo base -->
+  <circle cx="50" cy="50" r="45" fill="#0B0B0F"></circle>
+
+  <!-- gráfico (monitoramento) -->
+  <polyline points="15,60 30,45 45,55 60,35 75,50 85,40" fill="none" stroke="#8B5CF6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></polyline>
+
+  <!-- ponto ativo -->
+  <circle cx="60" cy="35" r="5" fill="#8B5CF6"></circle>
+</svg>
